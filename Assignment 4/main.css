@@ -1,0 +1,31 @@
+.collapse {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  
+  .form-label {
+    margin-right: 100px;
+  }
+  
+  .heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  @media screen and (max-width: 991px) {
+    .collapse {
+      display: inline;
+    }
+  }
+  body{
+    /* background-image: linear-gradient(to right, rgb(82, 223, 82),rgb(25, 25, 112)); */
+    background-image:url(https://th.bing.com/th/id/R.e349962b0b59deff202d3dffc85faaf1?rik=FIhScK8x8fBIOg&riu=http%3a%2f%2fcdn.wallpapersafari.com%2f44%2f82%2fQcZxBb.jpg&ehk=SyQ3SiZNasRWlIcxKbzvm%2f0kMtbmfiHXpHii2I3UkIQ%3d&risl=&pid=ImgRaw&r=0);
+    width: 100%;
+    height: 100vh;
+    background-position: right 0px;
+  }
+  .btn-success{
+    background-color:color-mix(in xyz-d50, color percentage, color percentage)
+  }
